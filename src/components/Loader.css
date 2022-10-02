@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+:root{
+    --font:'Jost', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #7FBCD2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small-logo{
+    width: 250px;
+    height: 250px;
+    animation-name: logo-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes logo-animation {
+    from{
+        width: 50px;
+        height: 50px;
+        transform: rotateZ(0deg);
+    }
+    to{
+        width: 250px;
+        height: 250px;
+        transform: rotateZ(360deg);
+    }
+}
+h1{
+    font-family: var(--font);
+    margin-top: 30px;
+    font-size: 50px;
+    color: #FFEEAF;
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    .small-logo{
+        width: 150px;
+        height: 150px;
+        animation-name: logo-animation;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+    @keyframes logo-animation {
+        from{
+            width: 30px;
+            height: 30px;
+            transform: rotateZ(0deg);
+        }
+        to{
+            width: 150px;
+            height: 150px;
+            transform: rotateZ(360deg);
+        }
+    }
+    h1{
+        font-family: var(--font);
+        margin-top: 30px;
+        font-size: 30px;
+        color: #FFEEAF;
+    }
+}
