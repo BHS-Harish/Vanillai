@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+:root{
+    --font:'Jost', sans-serif;
+    user-select: none;
+}
+.error404-container{   
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden ;
+}
+.error404-container>h1{
+    font-family: var(--font);
+    color: #7FBCD2;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.error404-main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.error404-main>div{
+    width: 40%;
+    height: 100%;
+    margin: 20px;
+}
+.error404-main>div:first-child{
+    background-image: url(../asset/Error404.png);
+    background-size: 100%;
+    background-position: 120px 50px;
+    background-repeat: no-repeat;
+}
+.error404-main>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font);
+    color: #7FBCD2;
+}
+.error404-main>div:nth-child(2)>h2{
+    font-size: 50px;
+    margin: 0;
+}
+.error404-button-container{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #7FBCD2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.error404-button-container:hover{
+    background-color: #5c9bb3;
+}
+.error404-button-container>h4{
+    font-family: var(--font);
+    color: #FFEEAF;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    .error404-container>h1{
+        font-family: var(--font);
+        color: #7FBCD2;
+        text-align: center;
+        font-size: 25px;
+        margin: 30px 0;
+    }
+    .error404-main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .error404-main>div:first-child{
+        background-image: url(../asset/Error404.png);
+        background-size: 120%;
+        background-position: 40% 0px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+        margin: 0;
+    }
+    .error404-main>div:nth-child(2){
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        font-family: var(--font);
+        color: #7FBCD2;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+    .error404-main>div:nth-child(2)>h2{
+        font-size: 40px !important;
+        margin-top: 5px;
+        color: #7FBCD2 !important;
+    }
+    .error404-main>div:nth-child(2)>h1{
+        font-size: 20px !important;
+        margin-top: 10px;
+    }
+    .error404-button-container{
+        margin-top: 10px;
+        width: 150px;
+        height: 35px;
+        background-color: #7FBCD2;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+        bottom: 30px;
+    }
+    .error404-button-container:hover{
+        background-color: #5c9bb3;
+    }
+    .error404-button-container>h4{
+        font-family: var(--font);
+        color: #FFEEAF;
+    }
+}

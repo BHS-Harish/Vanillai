@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+:root{
+    --font:'Jost', sans-serif;
+}
+.location-error-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #7FBCD2;
+}
+.location-error-navbar{
+    padding-top: 20px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location-error-logo{
+    width: 220px;
+    height: 50px;
+    margin-left: 50px;
+    border: 3px solid white;
+}
+.location-error-menu-icon{
+    width: 40px;
+    height: 50px;
+    background-image: url(../asset/change-location-icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.location-error-container>h1{
+    font-family: var(--font);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 0;
+}
+.location-error-main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.location-error-main>div{
+    width: 40%;
+    height: 100%;
+    margin: 0 50px;
+}
+.location-error-main>div:first-child{
+    background-image: url(../asset/location-error-img.png);
+    background-size: 50%;
+    background-position: 120px 50px;
+    background-repeat: no-repeat;
+}
+.location-error-main>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font);
+    color: white;
+}
+.location-error-main>div:nth-child(2)>h2{
+    font-size: 60px;
+    margin: 0;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    .location-error-navbar{
+        padding-top: 20px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .location-error-logo{
+        width: 120px;
+        height: 30px;
+        margin-left: 20px;
+        border: 2px solid white;
+    }
+    .location-error-menu-icon{
+        width: 30px;
+        height: 40px;
+        background-image: url(../asset/change-location-icon.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .location-error-container>h1{
+        font-family: var(--font);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin: 30px 0;
+    }
+    .location-error-main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .location-error-main>div:first-child{
+        background-image: url(../asset/location-error-img.png);
+        background-size: 60%;
+        background-position: 50% 00px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+    }
+    .location-error-main>div:nth-child(2){
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: var(--font);
+        color: white;
+    }
+    .location-error-main>div:nth-child(2)>h2{
+        font-size: 40px;
+        margin: 0;
+    }
+    .location-error-main>div:nth-child(2)>h1{
+        font-size: 20px;
+    }
+}

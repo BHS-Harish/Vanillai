@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState} from 'react';
+import Loader from './components/Loader';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 function App() {
+
+  const[loading,setLoading]=useState(true);
+  const navigate=useNavigate();
+  setTimeout(function(){
+    setLoading(false);
+  },3000);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {
+        loading?<Loader/>:
+        localStorage.getItem("currentLocation") && localStorage.getItem("currentLocationId") && localStorage.getItem("currentLocationId").length ?
+        navigate("/weatherreport")
+        :
+        navigate("/getstarted")
+      }
+    </>
+  )
 }
 
 export default App;
