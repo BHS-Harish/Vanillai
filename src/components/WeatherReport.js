@@ -19,8 +19,8 @@ import rain from '../asset/rain.png';
 
 import thunderstorms from '../asset/thunderstorms.png';
 import './WeatherReport.css';
-import { useDispatch} from "react-redux";
-import { dummy } from "./dummyData";
+import { useDispatch,useSelector} from "react-redux";
+// import { dummy } from "./dummyData";
 import { useNavigate } from "react-router-dom";
 function WeatherReport() {
 
@@ -31,8 +31,8 @@ function WeatherReport() {
     const date = require('date-and-time');
     const navigate = useNavigate();
     let dispatch = useDispatch();
-    // let state = useSelector((state) => state.Vanillai);
-    let state=dummy;
+    let state = useSelector((state) => state.Vanillai);
+    // let state=dummy;
     setTimeout(() => {
         setLoading(false);
     }, 3000);
