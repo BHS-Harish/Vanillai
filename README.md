@@ -1,10 +1,11 @@
 
 # Vanillai
 
+
 The Weather Application
 
 
-![fulllogo](https://user-images.githubusercontent.com/114602603/196216229-465f3ba6-3e67-49fb-95b8-8de0dd312079.png)
+![fulllogo](https://user-images.githubusercontent.com/114602603/197358461-0ad83650-8661-4f6c-9596-a2ef75d773bc.png)
 
 
 ## Authors
