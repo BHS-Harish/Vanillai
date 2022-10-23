@@ -6,7 +6,7 @@
     width: 100vw;
     height: auto;
     margin: 0;
-    background-color: #7FBCD2;
+    background-color: #3330E4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@
 .sunriseandset-container{
     width: 500px;
     height: 240px;
-    background-color: #a5f1e940;
+    background-color: #F637EC40;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
@@ -94,7 +94,7 @@
 .min-max-temp-container>p:nth-child(2){
     font-size: 30px;
     font-family: var(--font);
-    color: #ffeeaf;
+    color: #FAEA48;
 }
 .avgtemp-container{
     width: 300px;
@@ -108,7 +108,7 @@
     margin: 0;
     font-size: 60px;
     font-family: var(--font);
-    color:#ffeeaf;
+    color:#FAEA48;
 }
 .avgtemp-container>p:nth-child(2){
     margin: 0;
@@ -128,7 +128,7 @@
     margin: 10px 0;
     font-size: 20px;
     font-family: var(--font);
-    color:#ffeeaf;
+    color:#FAEA48;
 }
 .sun-rise-set-container>p:last-child{
     margin: 10px 0;
@@ -157,7 +157,7 @@
 .other-reports{
     width: 150px;
     height: 150px;
-    background-color: #a5f1e940;
+    background-color: #F637EC40;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -167,7 +167,7 @@
 .other-reports>div{
     width: 50px;
     height: 50px;
-    background-color: #ffeeaf;
+    background-color: #FAEA48;
     border-radius: 10px;
 }
 .other-reports>h3,p{
@@ -178,7 +178,7 @@
     margin: 7px;
 }
 .other-reports>p{
-    color: #ffeeaf;
+    color: #FAEA48;
     font-size: 15px;
     margin: 0;
 }
@@ -221,7 +221,7 @@
 .upcoming-hours-container{
     width: 90%;
     height: 200px;
-    background-color: #a5f1e940;
+    background-color: #F637EC40;
     border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -240,7 +240,7 @@
     font-family: var(--font);
 }
 .hourly-container>h3,h2{
-    color: #ffeeaf;
+    color: #FAEA48;
 }
 .hourly-container>h4{
     color: white;
@@ -268,7 +268,7 @@
 .days-report{
     width: 40%;
     height: 240px;
-    background-color:#a5f1e940;
+    background-color:#F637EC40;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -280,7 +280,7 @@
     font-family: var(--font);
 }
 .days-report-row1>h3:first-child{
-    color: #ffeeaf;
+    color: #FAEA48;
     margin: 0;
 }
 .days-report-row1>h3:last-child{
@@ -315,15 +315,19 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #7FBCD2;
+    background-color: #fff;
     font-size: 40px;
+}
+.please-wait>img{
+    width: 400px;
+    height: auto;
 }
 @media screen and (min-width:320px) and (max-width:768px){
     .weather-report-container{
         width: 100vw;
         height: auto;
         margin: 0;
-        background-color: #7FBCD2;
+        background-color: #3330E4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -381,7 +385,7 @@
     .sunriseandset-container{
         width: 90%;
         height: 180px;
-        background-color: #a5f1e940;
+        background-color: #F637EC40;
         border-radius: 20px;
         display: flex;
         justify-content: space-around;
@@ -406,7 +410,7 @@
     .min-max-temp-container>p:nth-child(2){
         font-size: 20px;
         font-family: var(--font);
-        color: #ffeeaf;
+        color: #FAEA48;
     }
     .avgtemp-container{
         width: 50%;
@@ -420,7 +424,7 @@
         margin: 0;
         font-size: 40px;
         font-family: var(--font);
-        color:#ffeeaf;
+        color:#FAEA48;
     }
     .avgtemp-container>p:nth-child(2){
         margin: 0;
@@ -440,7 +444,7 @@
         margin: 10px 0;
         font-size: 15px;
         font-family: var(--font);
-        color:#ffeeaf;
+        color:#FAEA48;
     }
     .sun-rise-set-container>p:last-child{
         margin: 10px 0;
@@ -471,7 +475,7 @@
     .other-reports{
         width: 140px;
         height: 140px;
-        background-color: #a5f1e940;
+        background-color: #F637EC40;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
@@ -481,7 +485,7 @@
     .upcoming-hours-container{
         width: 90%;
         height: 200px;
-        background-color: #a5f1e940;
+        background-color: #F637EC40;
         border-radius: 15px;
         display: flex;
         justify-content: flex-start;
@@ -511,7 +515,7 @@
     .days-report{
         width: 100%;
         height: 180px;
-        background-color:#a5f1e940;
+        background-color:#F637EC40;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
@@ -525,7 +529,7 @@
         margin-top: 10px;
     }
     .days-report-row1>h3:first-child{
-        color: #ffeeaf;
+        color: #FAEA48;
         margin: 0;
         font-size: 15px;
     }
@@ -559,5 +563,9 @@
     }
     .please-wait{
         font-size: 20px;
+    }
+    .please-wait>img{
+        width: 300px;
+        height: auto;
     }
 }

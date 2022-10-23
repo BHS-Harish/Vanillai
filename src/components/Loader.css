@@ -5,7 +5,7 @@
 .loader-container{
     width: 100vw;
     height: 100vh;
-    background-color: #7FBCD2;
+    background-color: #3330E4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@
     font-family: var(--font);
     margin-top: 30px;
     font-size: 50px;
-    color: #FFEEAF;
+    color: #FAEA48;
 }
 @media screen and (min-width:320px) and (max-width:768px) {
     .small-logo{
@@ -62,6 +62,6 @@
         font-family: var(--font);
         margin-top: 30px;
         font-size: 35px;
-        color: #FFEEAF;
+        color: #FAEA48;
     }
 }

@@ -11,7 +11,7 @@
 }
 .error404-container>h1{
     font-family: var(--font);
-    color: #7FBCD2;
+    color: #3330E4;
     text-align: center;
     font-size: 40px;
     margin: 20px 0;
@@ -40,7 +40,7 @@
     flex-direction: column;
     align-items: center;
     font-family: var(--font);
-    color: #7FBCD2;
+    color: #3330E4;
 }
 .error404-main>div:nth-child(2)>h2{
     font-size: 50px;
@@ -50,7 +50,7 @@
     margin-top: 50px;
     width: 150px;
     height: 40px;
-    background-color: #7FBCD2;
+    background-color: #3330E4;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@
 @media screen and (min-width:320px) and (max-width:768px){
     .error404-container>h1{
         font-family: var(--font);
-        color: #7FBCD2;
+        color: #3330E4;
         text-align: center;
         font-size: 25px;
         margin: 30px 0;
@@ -95,7 +95,7 @@
         flex-direction: column;
         align-items: center;
         font-family: var(--font);
-        color: #7FBCD2;
+        color: #3330E4;
         width: 100%;
         height: 200px;
         margin: 0;
@@ -103,7 +103,7 @@
     .error404-main>div:nth-child(2)>h2{
         font-size: 40px !important;
         margin-top: 5px;
-        color: #7FBCD2 !important;
+        color: #3330E4 !important;
     }
     .error404-main>div:nth-child(2)>h1{
         font-size: 20px !important;
@@ -113,7 +113,7 @@
         margin-top: 10px;
         width: 150px;
         height: 35px;
-        background-color: #7FBCD2;
+        background-color: #3330E4;
         border-radius: 50px;
         display: flex;
         align-items: center;

@@ -16,8 +16,8 @@ import cloudy from '../asset/cloudy.png';
 import lightrain from '../asset/light rain.png';
 import showers from '../asset/showers.png';
 import rain from '../asset/rain.png';
-
 import thunderstorms from '../asset/thunderstorms.png';
+import lottieloader from '../asset/lottie-ani.gif';
 import './WeatherReport.css';
 import { useDispatch,useSelector} from "react-redux";
 // import { dummy } from "./dummyData";
@@ -111,7 +111,7 @@ function WeatherReport() {
             {
                 loading ?
                     <div className="please-wait">
-                        <h4>Please Wait...</h4>
+                        <img src={lottieloader} alt="lottie-loader"/>
                     </div>
                     :
                     <>

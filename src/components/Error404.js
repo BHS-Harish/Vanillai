@@ -8,7 +8,7 @@ function Error404() {
                 <div></div>
                 <div>
                     <h1>SOMETHING WENT</h1>
-                    <h2 style={{color:"#7fbcd2"}}>WRONG</h2>
+                    <h2 style={{color:"#3330E4"}}>WRONG</h2>
                 </div>
             </div>
         </div>
